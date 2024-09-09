@@ -1,0 +1,6 @@
+module Pods_TXCharts {
+  umbrella header "Pods-TXCharts-umbrella.h"
+
+  export *
+  module * { export * }
+}
