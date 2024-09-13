@@ -6,7 +6,7 @@ platform :ios, '13.0'
 
 target 'TXCharts' do
   pod 'SnapKit'
-  
+  pod 'LookinServer', :configurations => ['Debug']
 end
 
 

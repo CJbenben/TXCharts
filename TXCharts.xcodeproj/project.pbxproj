@@ -11,13 +11,34 @@
 		F119293E2C8ED53E00783912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119293D2C8ED53E00783912 /* AppDelegate.swift */; };
 		F11929402C8ED53E00783912 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119293F2C8ED53E00783912 /* SceneDelegate.swift */; };
 		F11929422C8ED53E00783912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929412C8ED53E00783912 /* ViewController.swift */; };
-		F11929452C8ED53E00783912 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F11929442C8ED53E00783912 /* Base */; };
 		F11929472C8ED53F00783912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11929462C8ED53F00783912 /* Assets.xcassets */; };
-		F119294A2C8ED53F00783912 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F11929492C8ED53F00783912 /* Base */; };
 		F11929552C8ED53F00783912 /* TXChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929542C8ED53F00783912 /* TXChartsTests.swift */; };
 		F119295F2C8ED53F00783912 /* TXChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119295E2C8ED53F00783912 /* TXChartsUITests.swift */; };
 		F11929612C8ED53F00783912 /* TXChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929602C8ED53F00783912 /* TXChartsUITestsLaunchTests.swift */; };
 		F119296E2C8ED83900783912 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F119296D2C8ED83900783912 /* .swiftlint.yml */; };
+		F11929842C8ED94F00783912 /* HMDrawBgLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929712C8ED94F00783912 /* HMDrawBgLineView.swift */; };
+		F11929852C8ED94F00783912 /* HMDrawLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929722C8ED94F00783912 /* HMDrawLineChartView.swift */; };
+		F11929862C8ED94F00783912 /* HMAxisBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929742C8ED94F00783912 /* HMAxisBase.swift */; };
+		F11929872C8ED94F00783912 /* HMXAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929752C8ED94F00783912 /* HMXAxis.swift */; };
+		F11929882C8ED94F00783912 /* HMYAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929762C8ED94F00783912 /* HMYAxis.swift */; };
+		F11929892C8ED94F00783912 /* HMLineChartConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929782C8ED94F00783912 /* HMLineChartConfig.swift */; };
+		F119298A2C8ED94F00783912 /* HMLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929792C8ED94F00783912 /* HMLineChartView.swift */; };
+		F119298B2C8ED94F00783912 /* HMMoveLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119297A2C8ED94F00783912 /* HMMoveLineChartView.swift */; };
+		F119298C2C8ED94F00783912 /* HMChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119297C2C8ED94F00783912 /* HMChartData.swift */; };
+		F119298D2C8ED94F00783912 /* HMChartBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119297E2C8ED94F00783912 /* HMChartBubbleView.swift */; };
+		F119298E2C8ED94F00783912 /* HMChartUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119297F2C8ED94F00783912 /* HMChartUtil.swift */; };
+		F119298F2C8ED94F00783912 /* HMTouchMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929812C8ED94F00783912 /* HMTouchMaskView.swift */; };
+		F11929962C8ED95500783912 /* HMLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929922C8ED95500783912 /* HMLineChartViewController.swift */; };
+		F119299B2C90139400783912 /* HMLineChartCurveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119299A2C90139400783912 /* HMLineChartCurveViewController.swift */; };
+		F11929A12C904D9300783912 /* HMLineChartStraightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929A02C904D9300783912 /* HMLineChartStraightViewController.swift */; };
+		F11929A32C90505A00783912 /* HMLineChartSteppedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929A22C90505900783912 /* HMLineChartSteppedViewController.swift */; };
+		F11929A52C9175D000783912 /* HMLineChartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929A42C9175D000783912 /* HMLineChartDemoViewController.swift */; };
+		F11929A72C9296E100783912 /* HMBarChartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11929A62C9296E100783912 /* HMBarChartDemoViewController.swift */; };
+		F1D8C5272C92C953002277B2 /* HMBarChartConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8C5262C92C953002277B2 /* HMBarChartConfig.swift */; };
+		F1D8C52A2C92EFE2002277B2 /* HMBaseChartConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8C5282C92EFE2002277B2 /* HMBaseChartConfig.swift */; };
+		F1D8C5392C93EF93002277B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D8C5352C93EF93002277B2 /* LaunchScreen.storyboard */; };
+		F1D8C53A2C93EF93002277B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D8C5372C93EF93002277B2 /* Main.storyboard */; };
+		F1D8C53E2C93F35D002277B2 /* .jazzy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = F1D8C53D2C93F35D002277B2 /* .jazzy.yaml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +66,7 @@
 		F119293D2C8ED53E00783912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F119293F2C8ED53E00783912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F11929412C8ED53E00783912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F11929442C8ED53E00783912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F11929462C8ED53F00783912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F11929492C8ED53F00783912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F119294B2C8ED53F00783912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F11929502C8ED53F00783912 /* TXChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11929542C8ED53F00783912 /* TXChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXChartsTests.swift; sourceTree = "<group>"; };
@@ -55,6 +74,29 @@
 		F119295E2C8ED53F00783912 /* TXChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXChartsUITests.swift; sourceTree = "<group>"; };
 		F11929602C8ED53F00783912 /* TXChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F119296D2C8ED83900783912 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		F11929712C8ED94F00783912 /* HMDrawBgLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDrawBgLineView.swift; sourceTree = "<group>"; };
+		F11929722C8ED94F00783912 /* HMDrawLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDrawLineChartView.swift; sourceTree = "<group>"; };
+		F11929742C8ED94F00783912 /* HMAxisBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAxisBase.swift; sourceTree = "<group>"; };
+		F11929752C8ED94F00783912 /* HMXAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMXAxis.swift; sourceTree = "<group>"; };
+		F11929762C8ED94F00783912 /* HMYAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMYAxis.swift; sourceTree = "<group>"; };
+		F11929782C8ED94F00783912 /* HMLineChartConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineChartConfig.swift; sourceTree = "<group>"; };
+		F11929792C8ED94F00783912 /* HMLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineChartView.swift; sourceTree = "<group>"; };
+		F119297A2C8ED94F00783912 /* HMMoveLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMoveLineChartView.swift; sourceTree = "<group>"; };
+		F119297C2C8ED94F00783912 /* HMChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMChartData.swift; sourceTree = "<group>"; };
+		F119297E2C8ED94F00783912 /* HMChartBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMChartBubbleView.swift; sourceTree = "<group>"; };
+		F119297F2C8ED94F00783912 /* HMChartUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMChartUtil.swift; sourceTree = "<group>"; };
+		F11929812C8ED94F00783912 /* HMTouchMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTouchMaskView.swift; sourceTree = "<group>"; };
+		F11929922C8ED95500783912 /* HMLineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineChartViewController.swift; sourceTree = "<group>"; };
+		F119299A2C90139400783912 /* HMLineChartCurveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineChartCurveViewController.swift; sourceTree = "<group>"; };
+		F11929A02C904D9300783912 /* HMLineChartStraightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineChartStraightViewController.swift; sourceTree = "<group>"; };
+		F11929A22C90505900783912 /* HMLineChartSteppedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineChartSteppedViewController.swift; sourceTree = "<group>"; };
+		F11929A42C9175D000783912 /* HMLineChartDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMLineChartDemoViewController.swift; sourceTree = "<group>"; };
+		F11929A62C9296E100783912 /* HMBarChartDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMBarChartDemoViewController.swift; sourceTree = "<group>"; };
+		F1D8C5262C92C953002277B2 /* HMBarChartConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMBarChartConfig.swift; sourceTree = "<group>"; };
+		F1D8C5282C92EFE2002277B2 /* HMBaseChartConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMBaseChartConfig.swift; sourceTree = "<group>"; };
+		F1D8C5362C93EF93002277B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1D8C5382C93EF93002277B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1D8C53D2C93F35D002277B2 /* .jazzy.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .jazzy.yaml; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,10 +170,13 @@
 				F119293D2C8ED53E00783912 /* AppDelegate.swift */,
 				F119293F2C8ED53E00783912 /* SceneDelegate.swift */,
 				F11929412C8ED53E00783912 /* ViewController.swift */,
+				F11929932C8ED95500783912 /* Controller */,
+				F11929822C8ED94F00783912 /* TXCharts */,
 				F119296D2C8ED83900783912 /* .swiftlint.yml */,
-				F11929432C8ED53E00783912 /* Main.storyboard */,
+				F1D8C53D2C93F35D002277B2 /* .jazzy.yaml */,
+				F1D8C5352C93EF93002277B2 /* LaunchScreen.storyboard */,
+				F1D8C5372C93EF93002277B2 /* Main.storyboard */,
 				F11929462C8ED53F00783912 /* Assets.xcassets */,
-				F11929482C8ED53F00783912 /* LaunchScreen.storyboard */,
 				F119294B2C8ED53F00783912 /* Info.plist */,
 			);
 			path = TXCharts;
@@ -152,6 +197,88 @@
 				F11929602C8ED53F00783912 /* TXChartsUITestsLaunchTests.swift */,
 			);
 			path = TXChartsUITests;
+			sourceTree = "<group>";
+		};
+		F11929772C8ED94F00783912 /* Axis */ = {
+			isa = PBXGroup;
+			children = (
+				F11929742C8ED94F00783912 /* HMAxisBase.swift */,
+				F11929752C8ED94F00783912 /* HMXAxis.swift */,
+				F11929762C8ED94F00783912 /* HMYAxis.swift */,
+			);
+			path = Axis;
+			sourceTree = "<group>";
+		};
+		F119297B2C8ED94F00783912 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				F11929792C8ED94F00783912 /* HMLineChartView.swift */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		F119297D2C8ED94F00783912 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F119297C2C8ED94F00783912 /* HMChartData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F11929802C8ED94F00783912 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F119297F2C8ED94F00783912 /* HMChartUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F11929822C8ED94F00783912 /* TXCharts */ = {
+			isa = PBXGroup;
+			children = (
+				F119297D2C8ED94F00783912 /* Model */,
+				F1D8C5292C92EFE2002277B2 /* Config */,
+				F11929772C8ED94F00783912 /* Axis */,
+				F1D8C52B2C92F02D002277B2 /* View */,
+				F11929802C8ED94F00783912 /* Util */,
+			);
+			path = TXCharts;
+			sourceTree = "<group>";
+		};
+		F11929932C8ED95500783912 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F11929922C8ED95500783912 /* HMLineChartViewController.swift */,
+				F119299A2C90139400783912 /* HMLineChartCurveViewController.swift */,
+				F11929A22C90505900783912 /* HMLineChartSteppedViewController.swift */,
+				F11929A02C904D9300783912 /* HMLineChartStraightViewController.swift */,
+				F11929A42C9175D000783912 /* HMLineChartDemoViewController.swift */,
+				F11929A62C9296E100783912 /* HMBarChartDemoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1D8C5292C92EFE2002277B2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8C5282C92EFE2002277B2 /* HMBaseChartConfig.swift */,
+				F11929782C8ED94F00783912 /* HMLineChartConfig.swift */,
+				F1D8C5262C92C953002277B2 /* HMBarChartConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F1D8C52B2C92F02D002277B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F11929712C8ED94F00783912 /* HMDrawBgLineView.swift */,
+				F11929722C8ED94F00783912 /* HMDrawLineChartView.swift */,
+				F119297A2C8ED94F00783912 /* HMMoveLineChartView.swift */,
+				F11929812C8ED94F00783912 /* HMTouchMaskView.swift */,
+				F119297E2C8ED94F00783912 /* HMChartBubbleView.swift */,
+				F119297B2C8ED94F00783912 /* ChartView */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +388,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D8C5392C93EF93002277B2 /* LaunchScreen.storyboard in Resources */,
+				F1D8C53E2C93F35D002277B2 /* .jazzy.yaml in Resources */,
 				F119296E2C8ED83900783912 /* .swiftlint.yml in Resources */,
 				F11929472C8ED53F00783912 /* Assets.xcassets in Resources */,
-				F119294A2C8ED53F00783912 /* Base in Resources */,
-				F11929452C8ED53E00783912 /* Base in Resources */,
+				F1D8C53A2C93EF93002277B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +464,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/test",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -348,9 +477,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11929852C8ED94F00783912 /* HMDrawLineChartView.swift in Sources */,
+				F119298C2C8ED94F00783912 /* HMChartData.swift in Sources */,
+				F119298A2C8ED94F00783912 /* HMLineChartView.swift in Sources */,
+				F119298D2C8ED94F00783912 /* HMChartBubbleView.swift in Sources */,
+				F11929A52C9175D000783912 /* HMLineChartDemoViewController.swift in Sources */,
+				F11929A12C904D9300783912 /* HMLineChartStraightViewController.swift in Sources */,
+				F11929872C8ED94F00783912 /* HMXAxis.swift in Sources */,
 				F11929422C8ED53E00783912 /* ViewController.swift in Sources */,
+				F119298B2C8ED94F00783912 /* HMMoveLineChartView.swift in Sources */,
+				F1D8C5272C92C953002277B2 /* HMBarChartConfig.swift in Sources */,
+				F119298F2C8ED94F00783912 /* HMTouchMaskView.swift in Sources */,
+				F11929A32C90505A00783912 /* HMLineChartSteppedViewController.swift in Sources */,
+				F11929962C8ED95500783912 /* HMLineChartViewController.swift in Sources */,
+				F11929A72C9296E100783912 /* HMBarChartDemoViewController.swift in Sources */,
 				F119293E2C8ED53E00783912 /* AppDelegate.swift in Sources */,
+				F11929892C8ED94F00783912 /* HMLineChartConfig.swift in Sources */,
 				F11929402C8ED53E00783912 /* SceneDelegate.swift in Sources */,
+				F119298E2C8ED94F00783912 /* HMChartUtil.swift in Sources */,
+				F1D8C52A2C92EFE2002277B2 /* HMBaseChartConfig.swift in Sources */,
+				F119299B2C90139400783912 /* HMLineChartCurveViewController.swift in Sources */,
+				F11929842C8ED94F00783912 /* HMDrawBgLineView.swift in Sources */,
+				F11929862C8ED94F00783912 /* HMAxisBase.swift in Sources */,
+				F11929882C8ED94F00783912 /* HMYAxis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,20 +536,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F11929432C8ED53E00783912 /* Main.storyboard */ = {
+		F1D8C5352C93EF93002277B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F11929442C8ED53E00783912 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F11929482C8ED53F00783912 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F11929492C8ED53F00783912 /* Base */,
+				F1D8C5362C93EF93002277B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D8C5372C93EF93002277B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D8C5382C93EF93002277B2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

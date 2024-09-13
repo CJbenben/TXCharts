@@ -1,0 +1,19 @@
+# jazzy.yaml
+# 是否在每次生成文档前清理旧文档
+clean: true
+module: TXCharts  # 设置模块名称，通常是你的项目名称
+module_version: 1.0  # 模块版本号
+xcodebuild_arguments: ["-workspace","TXCharts.xcworkspace","-scheme","TXCharts","-sdk","iphonesimulator"]
+min_acl: internal  # 设置文档的最低访问控制级别，如 public、internal、private
+output: build/docs/  # 文档生成的输出目录，默认为 "docs"
+theme: apple  # 文档的主题，其他选项包括 "classic"、"apple" 和自定义主题
+readme: README.md  # README 文件的路径，用于文档中的介绍部分
+author:  # 列出作者
+  - "jie.chen@enjoyelec.com"
+#source_directory: TXCharts/
+exclude:
+  - "/*/AppDelegate.swift"
+  - "/*/ViewController.swift"
+  - "/*/SceneDelegate.swift"
+  - "/*/Controller*"
+sdk: iphonesimulator
